@@ -18,3 +18,9 @@ scale_mode = stretch
 [project]
 title = Adapters
 
+[library]
+include_dirs = extension-adapters
+
+[ios]
+bundle_identifier = com.defold.adapters
+

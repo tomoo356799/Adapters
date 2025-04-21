@@ -1,0 +1,7 @@
+name: "AdaptersExt"
+
+platforms:
+    ios:
+        context:
+            libs: ["z", "swiftCompatibility51", "swiftCompatibility50"]
+            linkFlags: ["-ObjC", "-Wl,-rpath,/usr/lib/swift", "-Wl,-rpath,@executable_path/Frameworks"]
